@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\http\controllers\EventoController;
 
 Route::get('/',[EventoController::class, 'index'] );
+Route::get('/Eventos/Criar',[EventoController::class, 'Criar']);
+Route::get('/Eventos/Atualizar',[EventoController::class,'Atualizar']);
+Route::get('/Eventos/Apagar',[EventoController::class,'Apagar']);
 
 
 

@@ -16,4 +16,18 @@ class EventoController extends Controller
             'arr' => $arr,
         ]);
     }
+
+    public function Criar(){
+
+        return view('Eventos.Criar');
+    }
+
+    public function Atualizar(){
+
+        return view('Eventos.Atualizar');
+    }
+
+    public function Apagar(){
+        return view('Eventos.Apagar');
+    }
 }

@@ -24,7 +24,7 @@
                     <a href="/" class="nav-link">Eventos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/" class="nav-link">Criar Eventos</a>
+                    <a href="/Eventos/Criar" class="nav-link">Criar Eventos</a>
                 </li>
                 <li class="nav-item">
                     <a href="/" class="nav-link">Entrar</a>
@@ -39,7 +39,7 @@
         @yield('content')
     </main>
     <footer>
-        Curso HDC EVENTS &COPY; 2024
+        Curso HDC EVENTS &COPY; 
     </footer>
 
     {{--IONICONS ABAIXO--}}
